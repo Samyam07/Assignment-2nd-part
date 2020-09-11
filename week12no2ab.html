@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Date and time</title>
+  </head>
+  <body>
+        <script type="text/javascript">
+      function change(after,tagName){
+      var tagName=document.getElementById(tagName);
+      tagName.innerHTML=after;
+      }
+    </script>
+    <div id="Clickable" onclick="change('GoodBye!!','toChange');">
+    <h1 id="toChange">Hello!!</h1></div>
+
+    <button onclick="document.write(Date())">Date and Time</button>
+  </body>
+</html>
